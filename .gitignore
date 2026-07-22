@@ -1,0 +1,14 @@
+venv/
+.env
+.env.local
+secrets.json
+backend/data/raw/*
+backend/data/processed/*
+backend/ml/models/*.pkl
+frontend/node_modules/
+frontend/.next/
+backend/venv/
+backend/env/
+.DS_Store
+Thumbs.db
+pycache/
