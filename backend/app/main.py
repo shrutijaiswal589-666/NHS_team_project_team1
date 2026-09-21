@@ -5,7 +5,7 @@ from sqlalchemy import func
 from datetime import datetime
 
 # Import database models from database.py
-from .database import engine, Base, get_db, RTTData, GPData
+from .backend import engine, Base, get_db, RTTData, GPData
 
 # Create database tables if they don't exist
 Base.metadata.create_all(bind=engine)

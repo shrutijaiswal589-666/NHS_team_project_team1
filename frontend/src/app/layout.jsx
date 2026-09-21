@@ -1,5 +1,5 @@
 import TailwindSetup from '../components/TailwindSetup';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../components/Searchbar/page';
 import './globals.css';
 
 export const metadata = {
