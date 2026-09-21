@@ -1,29 +1,15 @@
-/* STREAMING_CHUNK:Setting up base CSS resets... */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+/*
+Tailwind handles most of the base resets automatically.
+You can add any custom global CSS variables or font imports below if needed in the future!
+*/
+
+@layer base {
+html, body {
+height: 100%;
+scroll-behavior: smooth;
 }
-
-body {
-font-family: 'Public Sans', sans-serif;
-background-color: #f6faff;
-}
-
-/* STREAMING_CHUNK:Adding custom utility classes from HTML... */
-.nhs-blue-gradient {
-background: linear-gradient(135deg, #005eb8 0%, #00478d 100%);
-}
-
-.bg-success-container {
-background-color: #d1fae5;
-}
-
-.text-on-success-container {
-color: #064e3b;
-}
-
-.border-success {
-border-color: #34d399;
 }
